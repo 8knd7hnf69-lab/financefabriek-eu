@@ -1,0 +1,110 @@
+{
+  "pages": [
+    {
+      "slug": "bv-incorporation",
+      "tag": "Start",
+      "title": "BV incorporation",
+      "summary": "Your Dutch private limited company (BV) or holding structure, set up with a specialised civil-law notary.",
+      "seo_title": "Set up a Dutch BV to sell online in Europe",
+      "meta_description": "Setting up a Dutch BV as an international online seller? De Finance Fabriek EU Commerce arranges the incorporation with a specialised civil-law notary, from structure advice to registration.",
+      "intro": "A Dutch BV gives your online business an EU company from which you can sell across Europe. We advise on the right structure and arrange the incorporation together with a specialised civil-law notary.",
+      "points": [
+        "Advice on the structure, such as a holding and operating company",
+        "Preparation of the deed of incorporation and articles of association with the notary",
+        "Coordination of the identification and documents the notary needs",
+        "Registration of the BV and its directors with the Chamber of Commerce (KVK)"
+      ],
+      "note": "The legal minimum share capital of a BV is € 0.01. In the intro call we discuss what makes sense for your plans, your bank and the marketplaces you want to sell on.",
+      "image": "/images/poort.jpg"
+    },
+    {
+      "slug": "vat-and-eori-registration",
+      "tag": "Start",
+      "title": "VAT and EORI registration",
+      "summary": "Your Dutch VAT number, UBO registration and, if you import, your EORI number for customs.",
+      "seo_title": "Dutch VAT number and EORI number for online sellers",
+      "meta_description": "De Finance Fabriek EU Commerce arranges the registrations your Dutch BV needs to sell online: KVK, UBO, Dutch VAT number and EORI number for importing goods.",
+      "intro": "Before your first sale, your company has to be known to several authorities. We make sure every registration is complete, so you can list your products and import your goods without delays.",
+      "points": [
+        "Registration in the KVK Business Register and the UBO register",
+        "Registration with the Dutch tax authorities and your VAT identification number",
+        "EORI number for customs if you import goods from outside the EU",
+        "Registration for OSS or IOSS when your sales require it"
+      ],
+      "note": "Marketplaces usually ask for your VAT number and company details during seller registration. We make sure you have them ready.",
+      "image": "/images/hal.jpg"
+    },
+    {
+      "slug": "secretarial-services",
+      "tag": "Support",
+      "title": "Secretarial services",
+      "summary": "All your Dutch correspondence handled and explained in English, plus guidance with your business address and bank account.",
+      "seo_title": "Secretarial services: Dutch correspondence for online sellers",
+      "meta_description": "Letters from the Dutch tax authorities, customs or your bank, in Dutch? De Finance Fabriek EU Commerce handles your Dutch correspondence and guides you with your business address and bank account.",
+      "intro": "Dutch authorities write to you in Dutch, and customs and tax letters often come with deadlines. We handle all your incoming and outgoing Dutch-language correspondence, so you always know what needs to happen. We also guide you in arranging a business address and opening a business bank account.",
+      "points": [
+        "Handling of incoming Dutch correspondence, for example from the tax authorities, customs and the Chamber of Commerce",
+        "A clear explanation in English of what each letter means and what action is needed",
+        "Outgoing Dutch correspondence on your behalf",
+        "Guidance in finding a suitable business address: a P.O. box is not accepted",
+        "Preparation of your business bank account application"
+      ],
+      "note": "Banks carry out their own checks on new customers, and these can take longer for non-residents. Starting early and submitting complete documents helps.",
+      "image": "/images/gebouw.jpg"
+    },
+    {
+      "slug": "marketplace-connections",
+      "tag": "Automation",
+      "title": "Marketplace and web shop connections",
+      "summary": "Shopify, Amazon, Bol.com and your payment providers connected to your bookkeeping, set up free of charge.",
+      "seo_title": "Connect Shopify, Amazon and Bol.com to your Dutch bookkeeping",
+      "meta_description": "We connect Shopify, Amazon, Bol.com, WooCommerce and payment providers such as Mollie, Stripe and PayPal to the bookkeeping of your Dutch BV. Set up free of charge.",
+      "intro": "Every channel has its own payouts, fees and reports. We connect your web shop, marketplaces and payment providers to your bookkeeping, so orders, payouts and fees flow in automatically every day.",
+      "points": [
+        "Shopify, WooCommerce and Lightspeed web shops",
+        "Amazon marketplaces across Europe and Bol.com",
+        "Payment providers such as Mollie, Stripe and PayPal",
+        "Payouts broken down into revenue, fees, fulfilment and returns",
+        "Revenue and margin per channel in your dashboard"
+      ],
+      "note": "We set up the connections free of charge when your subscription starts. If a connection itself has costs, for example an app in your web shop, we discuss it in advance.",
+      "image": "/images/controlepaneel.jpg"
+    },
+    {
+      "slug": "eu-vat-oss-ioss-and-imports",
+      "tag": "International VAT",
+      "title": "EU VAT, OSS, IOSS and imports",
+      "summary": "VAT per EU country, OSS and IOSS returns, stock in foreign warehouses and import VAT.",
+      "seo_title": "EU VAT for online sellers: OSS, IOSS and imports",
+      "meta_description": "EU VAT for online sellers with a Dutch BV: the € 10,000 OSS threshold, IOSS for consignments up to € 150, stock abroad and import VAT deferral with an article 23 licence.",
+      "intro": "Selling across Europe means dealing with VAT rules that differ per country. We keep track of which rules apply to you and file the returns, so you can focus on selling.",
+      "points": [
+        "Dutch VAT returns, monthly or quarterly",
+        "OSS return for sales to consumers in other EU countries above € 10,000 per year",
+        "IOSS return for goods shipped from outside the EU to EU consumers, up to € 150 per consignment",
+        "Mapping of VAT registrations when your stock is held in other EU countries",
+        "Import VAT deferral with an article 23 licence"
+      ],
+      "note": "Which rules apply depends on what you sell, to whom, where your stock is held and where your goods come from. We map it out before we set up your returns.",
+      "image": "/images/tandwiel.jpg"
+    },
+    {
+      "slug": "bookkeeping-and-annual-accounts",
+      "tag": "Ongoing",
+      "title": "Bookkeeping and annual accounts",
+      "summary": "Automated bookkeeping, annual accounts, KVK filing and corporate income tax for your BV.",
+      "seo_title": "Bookkeeping and annual accounts for your Dutch BV, in English",
+      "meta_description": "Automated bookkeeping, annual accounts, KVK filing and corporate income tax for the Dutch BV of your online business. In English. From € 49 per month, excl. VAT.",
+      "intro": "With your channels connected, most of your bookkeeping runs by itself. We check it every month, file your returns and take care of the annual accounts and corporate income tax, explained in plain English.",
+      "points": [
+        "Monthly review of your automated bookkeeping",
+        "Real-time dashboard with revenue, margin and VAT",
+        "Annual accounts and filing with the Chamber of Commerce",
+        "Corporate income tax return for your BV and holding",
+        "Payroll and director's salary when your BV pays salaries"
+      ],
+      "note": "If you also have tax obligations in your home country, your local adviser may need our figures. We provide them in English.",
+      "image": "/images/meter.jpg"
+    }
+  ]
+}

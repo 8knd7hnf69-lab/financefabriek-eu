@@ -1,0 +1,838 @@
+media:
+  input: images
+  output: /images
+  categories:
+  - image
+content:
+- name: nl
+  label: Website Nederlands
+  type: file
+  path: content/nl.json
+  format: json
+  fields:
+  - name: meta
+    label: Titel en omschrijving voor Google
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: text
+    - name: description
+      label: Description
+      type: text
+  - name: nav
+    label: Menu
+    type: object
+    fields:
+    - name: tag
+      label: Tag
+      type: string
+    - name: how
+      label: How
+      type: string
+    - name: services
+      label: Services
+      type: string
+    - name: bv
+      label: Bv
+      type: string
+    - name: pricing
+      label: Pricing
+      type: string
+    - name: faq
+      label: Faq
+      type: string
+    - name: cta
+      label: Cta
+      type: string
+  - name: hero
+    label: Bovenaan (hero)
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: title_highlight
+      label: Title highlight
+      type: string
+    - name: lead
+      label: Lead
+      type: text
+    - name: button
+      label: Button
+      type: string
+    - name: secondary
+      label: Secondary
+      type: string
+    - name: background
+      label: Background
+      type: image
+  - name: onestop
+    label: Automatisering
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: text
+      label: Text
+      type: text
+    - name: points
+      label: Points
+      type: string
+      list: true
+    - name: image
+      label: Image
+      type: image
+  - name: process
+    label: Stappenplan (Zo werkt het)
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: string
+  - name: services
+    label: Kanalen (kop)
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+  - name: bv
+    label: Wat we oplossen
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: intro
+      label: Intro
+      type: string
+    - name: facts
+      label: Facts
+      type: object
+      list: true
+      fields:
+      - name: term
+        label: Term
+        type: string
+      - name: value
+        label: Value
+        type: text
+    - name: note
+      label: Note
+      type: text
+  - name: band
+    label: Fotoband met slogan
+    type: object
+    fields:
+    - name: line1
+      label: Line1
+      type: string
+    - name: line2
+      label: Line2
+      type: string
+    - name: image
+      label: Image
+      type: image
+  - name: pricing
+    label: Prijzen
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: cards
+      label: Cards
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Name
+        type: string
+      - name: price
+        label: Price
+        type: string
+      - name: price_note
+        label: Price note
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: items
+        label: Items
+        type: string
+        list: true
+  - name: faq
+    label: Veelgestelde vragen
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: items
+      label: Items
+      type: object
+      list: true
+      fields:
+      - name: q
+        label: Q
+        type: string
+      - name: a
+        label: A
+        type: text
+  - name: contact
+    label: Contact
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: text
+      label: Text
+      type: text
+    - name: email
+      label: Email
+      type: string
+    - name: city
+      label: City
+      type: string
+    - name: image
+      label: Image
+      type: image
+    - name: booking_title
+      label: 'Afspraakblok: kop'
+      type: string
+    - name: booking_text
+      label: 'Afspraakblok: tekst'
+      type: string
+    - name: booking_button
+      label: 'Afspraakblok: knoptekst'
+      type: string
+    - name: booking_url
+      label: 'Afspraakblok: link naar Bookings (leeg = blok verborgen)'
+      type: string
+  - name: form
+    label: Contactformulier
+    type: object
+    fields:
+    - name: name
+      label: Name
+      type: string
+    - name: company
+      label: Company
+      type: string
+    - name: email
+      label: Email
+      type: string
+    - name: country
+      label: Country
+      type: string
+    - name: type
+      label: Type
+      type: string
+    - name: type_options
+      label: Type options
+      type: string
+      list: true
+    - name: message
+      label: Message
+      type: string
+    - name: placeholder
+      label: Placeholder
+      type: string
+    - name: submit
+      label: Submit
+      type: string
+    - name: honeypot
+      label: Honeypot
+      type: string
+    - name: msg_preview
+      label: Msg preview
+      type: string
+    - name: msg_success
+      label: Msg success
+      type: string
+    - name: msg_error
+      label: Msg error
+      type: string
+  - name: footer
+    label: Footer
+    type: object
+    fields:
+    - name: part_of
+      label: Part of
+      type: string
+    - name: trade_name_of
+      label: Trade name of
+      type: string
+    - name: main_site
+      label: Main site
+      type: string
+    - name: kvk
+      label: Kvk
+      type: string
+    - name: btw
+      label: Btw
+      type: string
+    - name: main_site_url
+      label: Main site url
+      type: string
+  - name: bedrijf
+    label: Bedrijfsgegevens
+    type: object
+    fields:
+    - name: naam
+      label: Naam
+      type: string
+    - name: rechtspersoon
+      label: Rechtspersoon
+      type: string
+    - name: kvk
+      label: Kvk
+      type: string
+    - name: btw
+      label: Btw
+      type: string
+  - name: ui
+    label: Vaste teksten
+    type: object
+    fields:
+    - name: read_more
+      label: Read more
+      type: string
+    - name: crumb_home
+      label: Crumb home
+      type: string
+    - name: crumbs_aria
+      label: Crumbs aria
+      type: string
+    - name: svc_points_title
+      label: Svc points title
+      type: string
+    - name: svc_note_title
+      label: Svc note title
+      type: string
+    - name: side_title
+      label: Side title
+      type: string
+    - name: side_text
+      label: Side text
+      type: text
+    - name: other_services
+      label: Other services
+      type: string
+    - name: band_aria
+      label: Band aria
+      type: string
+    - name: menu_aria
+      label: Menu aria
+      type: string
+    - name: lang
+      label: Lang
+      type: string
+    - name: other_label
+      label: Other label
+      type: string
+    - name: other_name
+      label: Other name
+      type: string
+- name: en
+  label: Website Engels
+  type: file
+  path: content/en.json
+  format: json
+  fields:
+  - name: meta
+    label: Titel en omschrijving voor Google
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: text
+    - name: description
+      label: Description
+      type: text
+  - name: nav
+    label: Menu
+    type: object
+    fields:
+    - name: tag
+      label: Tag
+      type: string
+    - name: how
+      label: How
+      type: string
+    - name: services
+      label: Services
+      type: string
+    - name: bv
+      label: Bv
+      type: string
+    - name: pricing
+      label: Pricing
+      type: string
+    - name: faq
+      label: Faq
+      type: string
+    - name: cta
+      label: Cta
+      type: string
+  - name: hero
+    label: Bovenaan (hero)
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: title_highlight
+      label: Title highlight
+      type: string
+    - name: lead
+      label: Lead
+      type: text
+    - name: button
+      label: Button
+      type: string
+    - name: secondary
+      label: Secondary
+      type: string
+    - name: background
+      label: Background
+      type: image
+  - name: onestop
+    label: Automatisering
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: text
+      label: Text
+      type: text
+    - name: points
+      label: Points
+      type: string
+      list: true
+    - name: image
+      label: Image
+      type: image
+  - name: process
+    label: Stappenplan (Zo werkt het)
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: string
+  - name: services
+    label: Kanalen (kop)
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+  - name: bv
+    label: Wat we oplossen
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: intro
+      label: Intro
+      type: string
+    - name: facts
+      label: Facts
+      type: object
+      list: true
+      fields:
+      - name: term
+        label: Term
+        type: string
+      - name: value
+        label: Value
+        type: text
+    - name: note
+      label: Note
+      type: text
+  - name: band
+    label: Fotoband met slogan
+    type: object
+    fields:
+    - name: line1
+      label: Line1
+      type: string
+    - name: line2
+      label: Line2
+      type: string
+    - name: image
+      label: Image
+      type: image
+  - name: pricing
+    label: Prijzen
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: cards
+      label: Cards
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Name
+        type: string
+      - name: price
+        label: Price
+        type: string
+      - name: price_note
+        label: Price note
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: items
+        label: Items
+        type: string
+        list: true
+  - name: faq
+    label: Veelgestelde vragen
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: items
+      label: Items
+      type: object
+      list: true
+      fields:
+      - name: q
+        label: Q
+        type: string
+      - name: a
+        label: A
+        type: text
+  - name: contact
+    label: Contact
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: text
+      label: Text
+      type: text
+    - name: email
+      label: Email
+      type: string
+    - name: city
+      label: City
+      type: string
+    - name: image
+      label: Image
+      type: image
+    - name: booking_title
+      label: 'Afspraakblok: kop'
+      type: string
+    - name: booking_text
+      label: 'Afspraakblok: tekst'
+      type: string
+    - name: booking_button
+      label: 'Afspraakblok: knoptekst'
+      type: string
+    - name: booking_url
+      label: 'Afspraakblok: link naar Bookings (leeg = blok verborgen)'
+      type: string
+  - name: form
+    label: Contactformulier
+    type: object
+    fields:
+    - name: name
+      label: Name
+      type: string
+    - name: company
+      label: Company
+      type: string
+    - name: email
+      label: Email
+      type: string
+    - name: country
+      label: Country
+      type: string
+    - name: type
+      label: Type
+      type: string
+    - name: type_options
+      label: Type options
+      type: string
+      list: true
+    - name: message
+      label: Message
+      type: string
+    - name: placeholder
+      label: Placeholder
+      type: text
+    - name: submit
+      label: Submit
+      type: string
+    - name: honeypot
+      label: Honeypot
+      type: string
+    - name: msg_preview
+      label: Msg preview
+      type: string
+    - name: msg_success
+      label: Msg success
+      type: string
+    - name: msg_error
+      label: Msg error
+      type: string
+  - name: footer
+    label: Footer
+    type: object
+    fields:
+    - name: part_of
+      label: Part of
+      type: string
+    - name: trade_name_of
+      label: Trade name of
+      type: string
+    - name: main_site
+      label: Main site
+      type: string
+    - name: main_site_url
+      label: Main site url
+      type: string
+    - name: kvk
+      label: Kvk
+      type: string
+    - name: btw
+      label: Btw
+      type: string
+  - name: bedrijf
+    label: Bedrijfsgegevens
+    type: object
+    fields:
+    - name: naam
+      label: Naam
+      type: string
+    - name: rechtspersoon
+      label: Rechtspersoon
+      type: string
+    - name: kvk
+      label: Kvk
+      type: string
+    - name: btw
+      label: Btw
+      type: string
+  - name: ui
+    label: Vaste teksten
+    type: object
+    fields:
+    - name: read_more
+      label: Read more
+      type: string
+    - name: crumb_home
+      label: Crumb home
+      type: string
+    - name: crumbs_aria
+      label: Crumbs aria
+      type: string
+    - name: svc_points_title
+      label: Svc points title
+      type: string
+    - name: svc_note_title
+      label: Svc note title
+      type: string
+    - name: side_title
+      label: Side title
+      type: string
+    - name: side_text
+      label: Side text
+      type: text
+    - name: other_services
+      label: Other services
+      type: string
+    - name: band_aria
+      label: Band aria
+      type: string
+    - name: menu_aria
+      label: Menu aria
+      type: string
+    - name: lang
+      label: Lang
+      type: string
+    - name: other_label
+      label: Other label
+      type: string
+    - name: other_name
+      label: Other name
+      type: string
+- name: kanalen-nl
+  label: Kanaalpagina's Nederlands
+  type: file
+  path: content/kanalen-nl.json
+  format: json
+  fields:
+  - name: pages
+    label: Kanalen
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: Vaste code (niet wijzigen, koppelt NL en EN)
+      type: string
+    - name: slug
+      label: Adres van de pagina (alleen kleine letters en streepjes)
+      type: string
+    - name: tag
+      label: Label
+      type: string
+    - name: title
+      label: Titel
+      type: string
+    - name: summary
+      label: Korte tekst op de homepage
+      type: text
+    - name: seo_title
+      label: Titel voor Google
+      type: string
+    - name: meta_description
+      label: Omschrijving voor Google
+      type: text
+    - name: intro
+      label: Intro
+      type: text
+    - name: points
+      label: Wat we automatiseren (opsomming)
+      type: string
+      list: true
+    - name: note
+      label: Goed om te weten
+      type: text
+    - name: image
+      label: Foto bovenaan
+      type: image
+- name: kanalen-en
+  label: Kanaalpagina's Engels
+  type: file
+  path: content/kanalen-en.json
+  format: json
+  fields:
+  - name: pages
+    label: Kanalen
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: Vaste code (niet wijzigen, koppelt NL en EN)
+      type: string
+    - name: slug
+      label: Adres van de pagina (alleen kleine letters en streepjes)
+      type: string
+    - name: tag
+      label: Label
+      type: string
+    - name: title
+      label: Titel
+      type: string
+    - name: summary
+      label: Korte tekst op de homepage
+      type: text
+    - name: seo_title
+      label: Titel voor Google
+      type: string
+    - name: meta_description
+      label: Omschrijving voor Google
+      type: text
+    - name: intro
+      label: Intro
+      type: text
+    - name: points
+      label: Wat we automatiseren (opsomming)
+      type: string
+      list: true
+    - name: note
+      label: Goed om te weten
+      type: text
+    - name: image
+      label: Foto bovenaan
+      type: image

@@ -1,0 +1,28 @@
+<footer class="wrap">
+  <div class="foot">
+    <span>© {{@year}} {{bedrijf.naam}} · {{footer.part_of}} (<a href="{{footer.main_site_url}}">{{footer.main_site}}</a>) · {{footer.trade_name_of}} {{bedrijf.rechtspersoon}}</span>
+    <span>CoC {{bedrijf.kvk}} · VAT {{bedrijf.btw}} · <a href="mailto:{{contact.email}}">{{contact.email}}</a></span>
+  </div>
+</footer>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', async function (e) {
+  e.preventDefault();
+  var msg = document.getElementById('formMsg');
+  if (/claude/.test(location.hostname) || location.protocol === 'file:') {
+    msg.textContent = '{{form.msg_preview}}';
+    return;
+  }
+  try {
+    var body = new URLSearchParams(new FormData(this)).toString();
+    var r = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: body });
+    if (!r.ok) throw new Error();
+    this.reset();
+    msg.textContent = '{{form.msg_success}}';
+  } catch (err) {
+    msg.textContent = '{{form.msg_error}} {{contact.email}}.';
+  }
+});
+</script>
+</body>
+</html>

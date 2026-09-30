@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "slug": "why-sell-in-europe-with-a-dutch-bv",
+      "tag": "Getting started",
+      "title": "Why sell in Europe with a Dutch BV?",
+      "summary": "What a Dutch company gives international online sellers, and when it makes sense.",
+      "seo_title": "Why sell in Europe with a Dutch BV?",
+      "meta_description": "Why international online sellers choose a Dutch BV: an EU company for marketplaces, one OSS return for EU sales, a logistics hub and import VAT deferral.",
+      "intro": "Many online sellers from outside the Netherlands use a Dutch BV as their base for the European market. This guide explains what it gives you and when it makes sense.",
+      "sections": [
+        { "heading": "An EU company for European marketplaces", "text": "Marketplaces and payment providers work more easily with a company based in the EU. Bol.com, for example, works with sellers based in the EU, so a Dutch BV gives you access to this important channel for the Dutch and Belgian market." },
+        { "heading": "One VAT return for EU consumer sales", "text": "With a Dutch VAT number you can use the One Stop Shop (OSS). Above € 10,000 per year in sales to consumers in other EU countries, you charge the VAT of each customer's country, but you report it in one return in the Netherlands." },
+        { "heading": "A logistics hub", "text": "The Netherlands is one of Europe's main logistics hubs, with large ports, airports and fulfilment centres. That makes it a practical place to import goods and ship them across Europe." },
+        { "heading": "Import VAT deferral", "text": "When you import goods from outside the EU, import VAT is normally due at the border. With an article 23 licence your Dutch company can shift that VAT to its VAT return, so you don't have to pre-finance it. That helps your cash flow." },
+        { "heading": "When it makes sense", "text": "A Dutch BV makes most sense if you want to sell to European customers structurally, import goods into the EU or sell on marketplaces that require an EU company. Where you live and where your business is managed also matter for tax. We look at your situation in the intro call." }
+      ],
+      "image": "/images/hal.jpg"
+    },
+    {
+      "slug": "eu-vat-for-online-sellers",
+      "tag": "VAT",
+      "title": "EU VAT for online sellers: OSS, IOSS and stock abroad",
+      "summary": "The VAT rules every online seller in Europe runs into, explained.",
+      "seo_title": "EU VAT for online sellers: OSS, IOSS and stock abroad",
+      "meta_description": "EU VAT for online sellers explained: the € 10,000 OSS threshold, IOSS for imports up to € 150, VAT registrations for stock abroad and import VAT.",
+      "intro": "VAT is the most complex part of selling online in Europe. This guide covers the rules you are most likely to run into.",
+      "sections": [
+        { "heading": "Selling to consumers in other EU countries (OSS)", "text": "Once your total sales to consumers in other EU countries exceed € 10,000 per year, you charge the VAT rate of each customer's country. Through the One Stop Shop (OSS) you report this in a single return in the Netherlands, instead of registering in every country." },
+        { "heading": "Shipping from outside the EU (IOSS)", "text": "If you ship goods from outside the EU directly to EU consumers in consignments of up to € 150, you can use the Import One Stop Shop (IOSS). You charge VAT at checkout and report it in one monthly return, so your customers don't pay extra at delivery." },
+        { "heading": "Stock in other EU countries", "text": "If your goods are stored in a warehouse in another EU country, for example through a marketplace fulfilment programme, you may need a VAT registration and returns in that country. OSS does not cover this." },
+        { "heading": "Importing into the Netherlands", "text": "When you import goods into the Netherlands, import VAT and possibly customs duties are due. With an article 23 licence, the import VAT can be shifted to your VAT return. Your company needs an EORI number for customs." },
+        { "heading": "Selling to businesses", "text": "Sales to businesses in other EU countries are usually reverse-charged: you don't charge VAT, but you report the sale in your VAT return and in the EC Sales List (ICP)." }
+      ],
+      "image": "/images/tandwiel.jpg"
+    },
+    {
+      "slug": "selling-on-bol-com-as-an-international-seller",
+      "tag": "Marketplaces",
+      "title": "Selling on Bol.com as an international seller",
+      "summary": "What international sellers need to start on the leading marketplace of the Netherlands and Belgium.",
+      "seo_title": "Selling on Bol.com as an international seller",
+      "meta_description": "How international sellers can start on Bol.com, the leading marketplace in the Netherlands and Belgium: EU company, VAT, delivery, returns and bookkeeping.",
+      "intro": "Bol.com is the largest online marketplace in the Netherlands and Belgium. For international sellers it is an attractive channel, but you need to meet a few conditions first.",
+      "sections": [
+        { "heading": "An EU-based company", "text": "Bol.com works with sellers based in the EU. If your business is based outside the EU, a Dutch BV gives you the EU company you need. Check Bol.com's current seller requirements before you apply, as they can change." },
+        { "heading": "Delivery and customer service", "text": "Bol.com sets requirements for delivery times, returns and response times to customer questions. You can ship yourself or use Bol.com's own fulfilment service, Logistiek via bol (LVB)." },
+        { "heading": "VAT and invoices", "text": "Your sales on Bol.com are subject to VAT, usually Dutch or Belgian VAT depending on the customer and the sale. Bol.com also invoices you for commissions and fulfilment, with VAT that you can usually deduct." },
+        { "heading": "Bookkeeping", "text": "Bol.com pays out periodically, after deducting commissions and fees. We connect your Bol.com account to your bookkeeping, so every payout is broken down into revenue, fees and VAT automatically." }
+      ],
+      "image": "/images/station-19.jpg"
+    }
+  ]
+}

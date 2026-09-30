@@ -1,0 +1,38 @@
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="label">{{contact.label}}</p>
+        <h2 style="margin-top:.9rem">{{contact.title}}</h2>
+        <p style="margin-top:1rem;color:var(--muted)">{{contact.text}}</p>
+        <p style="margin-top:1.4rem"><strong>{{bedrijf.naam}}</strong><br>{{contact.city}}<br><a href="mailto:{{contact.email}}">{{contact.email}}</a></p>
+        {{#contact.booking_url}}<div class="booking">
+          <p class="booking-title">{{contact.booking_title}}</p>
+          <p>{{contact.booking_text}}</p>
+          <a class="btn btn-primary" href="{{contact.booking_url}}" target="_blank" rel="noopener">{{contact.booking_button}} &rarr;</a>
+        </div>{{/contact.booking_url}}
+        <img class="photo" src="{{contact.image}}" alt="" loading="lazy" style="margin-top:1.8rem">
+      </div>
+      <form id="contactForm" name="contact-eu" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact-eu">
+        <input type="hidden" name="page" value="{{page.url}}">
+        <p class="hp"><label>{{form.honeypot}} <input id="bot-field" name="bot-field"></label></p>
+        <div class="two">
+          <label for="naam">{{form.name}}<input id="naam" name="name" required autocomplete="name"></label>
+          <label for="bedrijf">{{form.company}}<input id="bedrijf" name="company" autocomplete="organization"></label>
+        </div>
+        <div class="two">
+          <label for="email">{{form.email}}<input id="email" name="email" type="email" required autocomplete="email"></label>
+          <label for="land">{{form.country}}<input id="land" name="country" autocomplete="country-name"></label>
+        </div>
+        <label for="type">{{form.type}}
+          <select id="type" name="interest">
+            {{#form.type_options}}<option>{{.}}</option>
+            {{/form.type_options}}
+          </select>
+        </label>
+        <label for="bericht">{{form.message}}<textarea id="bericht" name="message" placeholder="{{form.placeholder}}"></textarea></label>
+        <button class="btn btn-primary" type="submit" style="justify-self:start">{{form.submit}}</button>
+        <p class="form-msg" id="formMsg" role="status"></p>
+      </form>
+    </div>
+  </section>

@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "Dutch BV for online sellers: sell across Europe | De Finance Fabriek EU Commerce",
+    "description": "Set up a Dutch BV to sell online across Europe. Company formation, EU VAT, OSS and IOSS, marketplace connections and automated bookkeeping for Shopify, Amazon and Bol.com sellers. One point of contact, in English."
+  },
+  "nav": {
+    "tag": "EU E-commerce",
+    "how": "How it works",
+    "services": "Services",
+    "bv": "The Dutch BV",
+    "pricing": "Pricing",
+    "guides": "Guides",
+    "faq": "FAQ",
+    "cta": "Book a call",
+    "dutch_site_label": "NL",
+    "dutch_site_title": "Nederlandstalige website"
+  },
+  "hero": {
+    "label": "Dutch BV and accounting for online sellers",
+    "title": "Sell across Europe",
+    "title_highlight": "from your own Dutch company.",
+    "lead": "Selling on Amazon, Bol.com or your own Shopify store in Europe? We set up your Dutch BV, arrange your VAT and customs numbers, connect your sales channels and run your bookkeeping automatically. One point of contact, in English, from incorporation to annual accounts.",
+    "button": "Book a free intro call",
+    "secondary": "See how it works",
+    "background": "/images/staal.jpg"
+  },
+  "onestop": {
+    "label": "Why the Netherlands",
+    "title": "A Dutch BV as your base for selling in Europe",
+    "text": "For online sellers from outside the Netherlands, a Dutch BV is a practical base for the European market. You get an EU company, a Dutch VAT number and access to one of Europe's main logistics hubs. We handle the setup and keep the books running, together with specialised civil-law notaries and lawyers.",
+    "points": [
+      "An EU company for European marketplaces such as Amazon and Bol.com",
+      "A Dutch VAT number and one OSS return for your EU consumer sales",
+      "Import VAT deferral with an article 23 licence, good for cash flow",
+      "Automated bookkeeping with a real-time dashboard in English",
+      "All your Dutch correspondence handled and explained in English"
+    ],
+    "image": "/images/hal.jpg"
+  },
+  "process": {
+    "label": "How it works",
+    "title": "From first call to your first European order",
+    "intro": "Every new company follows the same line through our factory. You focus on your products and channels, we take care of the rest.",
+    "steps": [
+      {
+        "title": "Intro call",
+        "text": "We discuss your products, channels and markets, and advise on the right structure. You receive a fixed quote."
+      },
+      {
+        "title": "Incorporation",
+        "text": "A specialised civil-law notary sets up your BV and registers it with the Chamber of Commerce (KVK)."
+      },
+      {
+        "title": "Registrations",
+        "text": "We arrange the UBO registration, your VAT number and, if you import, your EORI number for customs."
+      },
+      {
+        "title": "Connect your channels",
+        "text": "We connect Shopify, Amazon, Bol.com and your payment providers to your bookkeeping."
+      },
+      {
+        "title": "Sell, we book",
+        "text": "Orders, payouts and fees flow in automatically. We file your VAT and OSS returns and annual accounts."
+      }
+    ]
+  },
+  "services": {
+    "label": "Services",
+    "title": "Everything to start and run your online business in Europe"
+  },
+  "bv": {
+    "label": "The Dutch BV",
+    "title": "The Dutch BV in brief",
+    "intro": "Most international online sellers choose a BV (besloten vennootschap), the Dutch private limited company. These are the basics.",
+    "facts": [
+      {
+        "term": "Incorporation",
+        "value": "By a civil-law notary, through a notarial deed with articles of association"
+      },
+      {
+        "term": "Minimum share capital",
+        "value": "€ 0.01"
+      },
+      {
+        "term": "Registration",
+        "value": "Chamber of Commerce (KVK) Business Register, plus the UBO register"
+      },
+      {
+        "term": "Business address",
+        "value": "A physical address in the Netherlands. A P.O. box is not accepted"
+      },
+      {
+        "term": "Customs",
+        "value": "An EORI number if your company imports goods from outside the EU"
+      },
+      {
+        "term": "Taxes",
+        "value": "Corporate income tax on profits, VAT (including OSS for EU consumer sales), dividend tax on distributions and payroll tax if you pay salaries"
+      },
+      {
+        "term": "Records",
+        "value": "Keep your business records for at least 7 years"
+      }
+    ],
+    "note": "These are general facts. Where you live, where your stock is held and where you sell can change what applies. We go through it with you in the intro call."
+  },
+  "band": {
+    "line1": "You build the brand.",
+    "line2": "The factory runs the books.",
+    "image": "/images/tandwiel.jpg"
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "Clear fees, agreed up front",
+    "cards": [
+      {
+        "name": "Company formation",
+        "price": "From € 1,495",
+        "price_note": "excl. VAT",
+        "text": "Structure advice, coordination with the notary and all registrations, including VAT and EORI numbers. The exact price depends on your structure: you receive a fixed quote before we start.",
+        "items": [
+          "Intro call and structure advice",
+          "Incorporation through a specialised notary",
+          "KVK, UBO, VAT and EORI registrations",
+          "Guidance with address and bank account"
+        ]
+      },
+      {
+        "name": "E-commerce accounting",
+        "price": "From € 49",
+        "price_note": "per month, excl. VAT",
+        "text": "Automated bookkeeping for all your sales channels, with a monthly fee that fits your volume. We set up the connections free of charge.",
+        "items": [
+          "Connections set up free of charge",
+          "Automated processing of all channels",
+          "VAT, OSS and IOSS returns",
+          "Real-time dashboard per channel"
+        ]
+      }
+    ]
+  },
+  "guides": {
+    "label": "Guides",
+    "title": "Selling in Europe, explained",
+    "intro": "Practical guides to the questions international online sellers ask us most."
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Can I set up a Dutch BV if I don't live in the Netherlands?",
+        "a": "Yes. Non-residents can set up a BV in the Netherlands. The company needs a physical business address in the Netherlands, and you need to identify yourself at the notary. We coordinate the process with you."
+      },
+      {
+        "q": "Do I need to travel to the Netherlands?",
+        "a": "Often not. Many notaries can identify you remotely or work with a power of attorney and certified documents. Some banks do ask for a visit when you open an account. We tell you in advance what applies in your case."
+      },
+      {
+        "q": "Which sales channels can you connect?",
+        "a": "We work with Shopify, Amazon, Bol.com, WooCommerce, Lightspeed and payment providers such as Mollie, Stripe and PayPal. Selling through another channel? Ask us: there is usually a connection or a good way of working."
+      },
+      {
+        "q": "Can I sell on Bol.com with a Dutch BV?",
+        "a": "Yes. Bol.com works with sellers based in the EU, so a Dutch BV gives you access. Bol.com sets its own seller requirements, for example on delivery times and customer service, so check them before you start. We help you with the company side."
+      },
+      {
+        "q": "What is OSS and do I need it?",
+        "a": "If you sell to consumers in other EU countries above € 10,000 per year, you charge the VAT of your customer's country. Through the One Stop Shop (OSS) you report this in one return in the Netherlands instead of registering in every country. We keep track of the threshold and file the return."
+      },
+      {
+        "q": "What is IOSS?",
+        "a": "The Import One Stop Shop (IOSS) is for goods you ship from outside the EU directly to EU consumers, in consignments of up to € 150. You charge VAT at checkout and report it in one monthly return. We check whether IOSS suits your supply chain."
+      },
+      {
+        "q": "Do I need an EORI number?",
+        "a": "If your company imports goods from outside the EU, you need an EORI number for customs. We arrange it as part of the registrations."
+      },
+      {
+        "q": "What does it cost?",
+        "a": "Company formation starts at € 1,495 excluding VAT, with a fixed quote in advance. E-commerce accounting starts at € 49 per month excluding VAT, and we set up the connections to your channels free of charge."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Ready to sell across Europe?",
+    "text": "Tell us briefly about your products and channels. We will get back to you within one working day to schedule a free intro call.",
+    "email": "info@financefabriek.nl",
+    "city": "Bergen op Zoom, the Netherlands",
+    "image": "/images/fabriekshal.jpg",
+    "booking_title": "Prefer to book right away?",
+    "booking_text": "Pick a time for an intro call in our calendar.",
+    "booking_button": "Book a time",
+    "booking_url": "https://calendly.com/eef-duin-financefabriek/30min"
+  },
+  "form": {
+    "name": "Name",
+    "company": "Company or brand name",
+    "email": "Email",
+    "country": "Country of residence",
+    "type": "I'm interested in",
+    "type_options": [
+      "Setting up a Dutch BV to sell online",
+      "Accounting for my existing Dutch company",
+      "Both",
+      "Something else"
+    ],
+    "message": "Message",
+    "placeholder": "For example: your products, sales channels, target countries and planned start date",
+    "submit": "Send",
+    "honeypot": "Do not fill in",
+    "msg_preview": "This is the preview. On the live site your message reaches us directly.",
+    "msg_success": "Thank you! We will get back to you within one working day.",
+    "msg_error": "Sending failed. Please try again later or email us at"
+  },
+  "footer": {
+    "part_of": "Part of De Finance Fabriek",
+    "trade_name_of": "trade name of",
+    "main_site": "financefabriek.nl",
+    "main_site_url": "https://financefabriek.nl/en/"
+  },
+  "bedrijf": {
+    "naam": "De Finance Fabriek EU Commerce",
+    "rechtspersoon": "TFTF Holding B.V.",
+    "kvk": "82005621",
+    "btw": "NL862301543B02"
+  },
+  "ui": {
+    "read_more": "Read more",
+    "crumb_home": "Home",
+    "crumbs_aria": "Breadcrumb",
+    "svc_points_title": "What we do for you",
+    "svc_note_title": "Good to know",
+    "side_title": "Want to get started?",
+    "side_text": "Book a free intro call. We will get back to you within one working day.",
+    "other_services": "Other services",
+    "read_guide": "Read the guide",
+    "other_guides": "More guides",
+    "services_link": "Our services"
+  }
+}

@@ -1,0 +1,123 @@
+{{> head}}
+<body>
+{{> header}}
+
+<main id="top">
+  <div class="hero-band" style="--hero-img:url('{{hero.background}}')"><section class="wrap hero">
+    <div>
+      <p class="label">{{hero.label}}</p>
+      <h1 style="margin-top:1rem">{{hero.title}} <em>{{hero.title_highlight}}</em></h1>
+      <p class="lead">{{hero.lead}}</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#contact">{{hero.button}}</a>
+        <a class="btn btn-ghost" href="#how">{{hero.secondary}}</a>
+      </div>
+    </div>
+  </section></div>
+
+  <section class="wrap onestop">
+    <div class="split">
+      <div class="sec-head">
+        <p class="label">{{onestop.label}}</p>
+        <h2>{{onestop.title}}</h2>
+        <p>{{onestop.text}}</p>
+        <ul>
+          {{#onestop.points}}<li>{{.}}</li>
+          {{/onestop.points}}
+        </ul>
+      </div>
+      <img class="photo" src="{{onestop.image}}" alt="" loading="lazy">
+    </div>
+  </section>
+
+  <section class="line-sec" id="how">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="label">{{process.label}}</p>
+        <h2>{{process.title}}</h2>
+        <p>{{process.intro}}</p>
+      </div>
+      <ol class="stations five">
+        <li class="token" aria-hidden="true"></li>
+        {{#process.steps}}<li class="station"><span class="st-no">{{@num}}</span><h3>{{title}}</h3><p>{{text}}</p></li>
+        {{/process.steps}}
+      </ol>
+    </div>
+  </section>
+
+  <section class="wrap services" id="services">
+    <div class="sec-head">
+      <p class="label">{{services.label}}</p>
+      <h2>{{services.title}}</h2>
+    </div>
+    <div class="svc-grid plain">
+      {{#services.items}}<a class="svc" href="{{url}}"><span class="code">{{tag}}</span><h3>{{title}}</h3><p>{{summary}}</p><span class="more">{{ui.read_more}} &rarr;</span></a>
+      {{/services.items}}
+    </div>
+  </section>
+
+  <section class="band" style="--band-img:url('{{band.image}}')" aria-label="Our approach">
+    <div class="wrap"><p>{{band.line1}}<br><span>{{band.line2}}</span></p></div>
+  </section>
+
+  <section class="wrap bv" id="bv">
+    <div class="sec-head">
+      <p class="label">{{bv.label}}</p>
+      <h2>{{bv.title}}</h2>
+      <p>{{bv.intro}}</p>
+    </div>
+    <div>
+      <dl class="facts">
+        {{#bv.facts}}<div><dt>{{term}}</dt><dd>{{value}}</dd></div>
+        {{/bv.facts}}
+      </dl>
+      <p class="note">{{bv.note}}</p>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="label">{{pricing.label}}</p>
+        <h2>{{pricing.title}}</h2>
+      </div>
+      <div class="price-grid">
+        {{#pricing.cards}}<div class="price-card">
+          <h3 style="font-size:1.4rem">{{name}}</h3>
+          <div class="price">{{price}}<small>{{price_note}}</small></div>
+          <p>{{text}}</p>
+          <ul>{{#items}}<li>{{.}}</li>{{/items}}</ul>
+          <a class="btn btn-primary" href="#contact" style="justify-self:start">{{hero.button}}</a>
+        </div>
+        {{/pricing.cards}}
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap guides" id="guides">
+    <div class="sec-head">
+      <p class="label">{{guides.label}}</p>
+      <h2>{{guides.title}}</h2>
+      <p>{{guides.intro}}</p>
+    </div>
+    <div class="svc-grid">
+      {{#guides.items}}<a class="svc" href="{{url}}"><span class="code">{{tag}}</span><h3>{{title}}</h3><p>{{summary}}</p><span class="more">{{ui.read_guide}} &rarr;</span></a>
+      {{/guides.items}}
+    </div>
+  </section>
+
+  <section class="wrap faq" id="faq">
+    <div class="sec-head">
+      <p class="label">{{faq.label}}</p>
+      <h2>{{faq.title}}</h2>
+    </div>
+    <div class="faq-list">
+      {{#faq.items}}<details><summary>{{q}}</summary><p>{{a}}</p></details>
+      {{/faq.items}}
+    </div>
+  </section>
+
+  {{> contact}}
+</main>
+
+{{> footer}}

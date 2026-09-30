@@ -1,0 +1,46 @@
+{{> head}}
+<body>
+{{> header}}
+
+<main id="top">
+  <div class="page-hero" style="--page-img:url('{{svc.image}}')">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="{{ui.crumbs_aria}}"><a href="/">{{ui.crumb_home}}</a><span aria-hidden="true">/</span><a href="/#services">{{nav.services}}</a><span aria-hidden="true">/</span><span aria-current="page">{{svc.title}}</span></nav>
+      <p class="label">{{svc.tag}}</p>
+      <h1>{{svc.title}}</h1>
+      <p class="lead">{{svc.intro}}</p>
+      <div class="cta"><a class="btn btn-primary" href="#contact">{{hero.button}}</a></div>
+    </div>
+  </div>
+
+  <section class="wrap svc-page">
+    <div class="svc-main">
+      <h2>{{ui.svc_points_title}}</h2>
+      <ul class="points">
+        {{#svc.points}}<li>{{.}}</li>
+        {{/svc.points}}
+      </ul>
+      <div class="note"><p class="label">{{ui.svc_note_title}}</p><p>{{svc.note}}</p></div>
+    </div>
+    <aside class="svc-side">
+      <div class="side-card">
+        <h3>{{ui.side_title}}</h3>
+        <p>{{ui.side_text}}</p>
+        <a class="btn btn-primary" href="#contact">{{hero.button}}</a>
+        <p class="side-mail">{{contact.email}}</p>
+        {{#contact.booking_url}}<a class="side-book" href="{{contact.booking_url}}" target="_blank" rel="noopener">{{contact.booking_button}} &rarr;</a>{{/contact.booking_url}}
+      </div>
+      <div class="side-list">
+        <p class="label">{{ui.other_services}}</p>
+        <ul>
+          {{#others}}<li><a href="{{url}}">{{title}}</a></li>
+          {{/others}}
+        </ul>
+      </div>
+    </aside>
+  </section>
+
+  {{> contact}}
+</main>
+
+{{> footer}}
